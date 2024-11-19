@@ -1,0 +1,39 @@
+body {
+    background-color: #ffccf9; /* Light pink background */
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    background-color: #fff0f5; /* Light floral background */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    max-width: 500px;
+}
+
+h1 {
+    color: #d63384; /* Vibrant pink */
+}
+
+label, input, button {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #ff69b4; /* Hot pink */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ff1493; /* Deep pink */
+}
